@@ -107,6 +107,9 @@ productList.push({
 
 const emailDesktop = document.querySelector(".navbar-email");
 const menuDesktop = document.querySelector(".desktop-menu");
+/*category */
+const mainSection = document.querySelector(".main")
+const categorySection = document.querySelector(".category-container")
 const menuHamburgerIcon = document.querySelector(".menu");
 const mobileMenu = document.querySelector(".mobile-menu");
 const shoppingCartIcon = document.querySelector(".navbar-shopping-cart");
@@ -125,7 +128,6 @@ const arrayProductCart =[];
 
 
 const darkenScreen = document.querySelector(".darken");
-
 buttonCheck.addEventListener("click", buttonCheckDelete);
 buttonCheck.addEventListener("click", toggleShoppingCart);
 buttonDeletetarjeta.addEventListener("click", deleteListTarjeta);
@@ -171,6 +173,7 @@ function toggleMenuMobile(){
     }
 }
 function toggleShoppingCart(){
+    mainSection.classList.add("inactive");
     productDetail.classList.toggle("inactive");
     menuDesktop.classList.add("inactive");
     mobileMenu.classList.add("inactive");
