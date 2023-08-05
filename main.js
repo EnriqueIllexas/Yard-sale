@@ -24,61 +24,85 @@ productList.push({
     name: "Desk",
     price: 320,
     image: "https://images.pexels.com/photos/7238759/pexels-photo-7238759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description: " El último avance en la innovación tecnológica de Apple. Con un diseño elegante y materiales de primera calidad, este smartphone redefine la experiencia móvil. Disfruta de una pantalla impresionante, un potente rendimiento, cámaras avanzadas y características únicas que llevan tu creatividad y productividad al siguiente nivel. ",
+    category: "mueble",
   });
   productList.push({
     name: "Monopoly",
     price: 100,
     image: "https://images.pexels.com/photos/4004426/pexels-photo-4004426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description: "Un monopolio de mesa es un juego de mesa clásico que combina estrategia y entretenimiento para jugadores de todas las edades. En este emocionante juego, los jugadores compiten por adquirir propiedades y construir monopolios en diferentes calles de la ciudad. ",
+    category: "juegos de mesa",
   });
   productList.push({
     name: "Room",
     price: 5000,
     image: "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description: "La habitación cuenta con una cómoda cama tamaño queen, perfecta para descansar después de un largo día. También incluye un escritorio funcional, ideal para trabajar o estudiar desde la comodidad de tu hogar. Además, un amplio armario proporciona suficiente espacio para guardar tus pertenencias de forma organizada.",
+    category:"muebles",
   });
   productList.push({
     name: "Car Audi",
     price: 500000 ,
     image: "https://images.pexels.com/photos/193991/pexels-photo-193991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:"La moto es una emocionante máquina de dos ruedas que te brinda libertad y adrenalina en cada trayecto. Con un diseño elegante y aerodinámico, te permite desplazarte ágilmente por la ciudad o aventurarte en emocionantes recorridos por carreteras sinuosas.",
+    category:"carros",
   });
   productList.push({
     name: "Motorcycle",
     price: 203,
     image: "https://images.pexels.com/photos/2830762/pexels-photo-2830762.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:"La moto es una emocionante máquina de dos ruedas que te brinda libertad y adrenalina en cada trayecto. Con un diseño elegante y aerodinámico, te permite desplazarte ágilmente por la ciudad o aventurarte en emocionantes recorridos por carreteras sinuosas.",
+    category:"carros",
   });
   productList.push({
     name: "room Clasic",
     price: 4000,
     image: "https://images.pexels.com/photos/3144580/pexels-photo-3144580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:"",
+    category:"muebles",
   });
   productList.push({
     name: "Games",
     price: 80,
     image: "https://images.pexels.com/photos/21067/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:"",
+    category:"games",
   });
   productList.push({
     name: "Books",
     price: 44,
     image: "https://images.pexels.com/photos/2883049/pexels-photo-2883049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:"",
+    category:"libros",
   });
   productList.push({
     name: "cubo rubik",
     price: 50,
     image: "https://images.pexels.com/photos/1500610/pexels-photo-1500610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:"",
+    category:"games",
   });
   productList.push({
     name: "Zapatilla nike",
     price: 210,
     image: "https://images.pexels.com/photos/13236696/pexels-photo-13236696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:"",
+    category:"calzado",
   });
   productList.push({
     name: "lentes",
     price: 20,
     image: "https://images.pexels.com/photos/298842/pexels-photo-298842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:"",
+    category:"accesorios",
   });
   productList.push({
     name: "TV apple",
     price: 700,
     image: "https://images.pexels.com/photos/4009409/pexels-photo-4009409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:"",
+    category:"electronicos",
   });
 
 const emailDesktop = document.querySelector(".navbar-email");
