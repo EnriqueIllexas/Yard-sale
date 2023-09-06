@@ -1,6 +1,6 @@
 const productList = [];
 productList.push({
-    name: "Zapatilla",
+    name: "LENTES",
     price: 100,
     image: "https://images.pexels.com/photos/8559045/pexels-photo-8559045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description: "Camina con estilo y comodidad con nuestras zapatillas azules. Este calzado urbano fusiona moda y funcionalidad para que puedas destacar en cualquier ocasión. El color azul vibrante y moderno agrega un toque de frescura a tu outfit, haciéndote lucir a la moda en cada paso.",
@@ -122,27 +122,26 @@ const totalAmount = document.querySelector(".total-amount");
 const arrowClose = document.querySelector(".title-container img");
 const buttonCheck = document.querySelector("#buttonCheck");
 const tarjetaAside = document.querySelector(".tarjeta-aside");
+const modalClose = document.querySelector(".modal-close")
 const buttonAddtoCard = document.querySelector(".add-to-cart-button")
-const buttonDeletetarjeta = document.querySelector("#productCheakoutButton")
-const arrayProductCart =[];
 
+const arrayProductCart =[];
 
 const darkenScreen = document.querySelector(".darken");
 buttonCheck.addEventListener("click", buttonCheckDelete);
 buttonCheck.addEventListener("click", toggleShoppingCart);
-buttonDeletetarjeta.addEventListener("click", deleteListTarjeta);
 emailDesktop.addEventListener("click", toggleMenuDesktop);
 menuHamburgerIcon.addEventListener("click", toggleMenuMobile);
 shoppingCartIcon.addEventListener("click", toggleShoppingCart);
 productDetailClosed.addEventListener("click", productCloseAside);
 arrowClose.addEventListener("click",toggleShoppingCart);
+modalClose.addEventListener("click", closeModal)
 
-
+function closeModal(){
+    tarjetaAside.classList.add("inactive")
+}
 function darkenChange(){
     darkenScreen.classList.toggle("inactive");
-}
-function deleteListTarjeta(){
-  location.reload()
 }
 function toggleMenuDesktop(){
     menuDesktop.classList.toggle("inactive");    
